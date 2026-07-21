@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Newtonsoft.Json 12.0.1 tiene una vulnerabilidad conocida. -->
+    <PackageVersion Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageVersion Include="Serilog" Version="2.10.0" />
+  </ItemGroup>
+</Project>
